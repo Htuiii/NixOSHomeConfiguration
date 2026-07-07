@@ -3,7 +3,9 @@
     ./audio.nix
     ./bluetooth.nix
     ./boot.nix
+    ./desktop.nix
     ./env.nix
+    ./gpundocker.nix
     ./home-manager.nix
     ./hyprland.nix
     ./kernel.nix
@@ -11,6 +13,7 @@
     ./net.nix
     ./nh.nix
     ./nix.nix
+    ./security.nix
     ./timezone.nix
     ./user.nix
     ./zram.nix
