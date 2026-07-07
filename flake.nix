@@ -20,6 +20,11 @@
       
     };
 
+    happ-nixos = {
+      url = "github:Htuiii/happ-nixos";
+      flake = false;
+    };
+
   };
 
   outputs = { self, nixpkgs, home-manager, ... }@inputs: let

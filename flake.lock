@@ -201,6 +201,22 @@
         "type": "github"
       }
     },
+    "happ-nixos": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1783433881,
+        "narHash": "sha256-OvFFzbxeR7SYMcyV+B24F/a/G+3HY+EZJikj+5u+uuk=",
+        "owner": "Htuiii",
+        "repo": "happ-nixos",
+        "rev": "4de5c22d8b325a48428412b80a0382e323b50430",
+        "type": "github"
+      },
+      "original": {
+        "owner": "Htuiii",
+        "repo": "happ-nixos",
+        "type": "github"
+      }
+    },
     "home-manager": {
       "inputs": {
         "nixpkgs": [
@@ -278,11 +294,11 @@
         "nixpkgs": "nixpkgs_2"
       },
       "locked": {
-        "lastModified": 1783212795,
-        "narHash": "sha256-monAUvtoBGhhdGlOizVf7O8tmk+72gE8f0jB8JF7z1M=",
+        "lastModified": 1783432516,
+        "narHash": "sha256-j63cvMnWPzDEc1eYo+9bQoGQgpcaSm92oBRzNShom0A=",
         "owner": "noctalia-dev",
         "repo": "noctalia",
-        "rev": "8e3da5ea75a2ef361862b69b80f1b1739847cbd2",
+        "rev": "133154837f87ed060cbc65d493d2c3b5ea362671",
         "type": "github"
       },
       "original": {
@@ -293,6 +309,7 @@
     },
     "root": {
       "inputs": {
+        "happ-nixos": "happ-nixos",
         "home-manager": "home-manager",
         "nixpkgs": "nixpkgs",
         "noctalia": "noctalia",

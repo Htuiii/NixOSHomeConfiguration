@@ -1,5 +1,6 @@
+{ inputs, ... } : 
 {
-  imports = [ ./happ-nixos/happ-module.nix ];
+  imports = [ "${inputs.happ-nixos}/happ-module.nix" ];
   
   networking.networkmanager.enable = true;
 
