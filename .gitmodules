@@ -1,3 +1,0 @@
-[submodule "nixos/modules/happ-nixos"]
-	path = nixos/modules/happ-nixos
-	url = https://github.com/MrShitFox/happ-nixos
