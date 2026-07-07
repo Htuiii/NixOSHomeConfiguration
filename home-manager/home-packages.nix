@@ -13,7 +13,10 @@
     telegram-desktop
     kdenlive
     steam
-       
+    xfce.thunar
+    xfce.thunar-volman
+    xfce.thunar-archive-plugin
+
     # CLI utils
     bc
     bottom
