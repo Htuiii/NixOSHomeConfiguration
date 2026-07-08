@@ -49,9 +49,8 @@
     # Coding stuff
     openjdk23
     nodejs
-    python311
     gcc
-
+    python3Full
     # WM stuff
     libsForQt5.xwaylandvideobridge
     libnotify
