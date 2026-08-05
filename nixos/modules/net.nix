@@ -5,4 +5,7 @@
   networking.networkmanager.enable = true;
 
   services.happ.enable = true;
+
+  services.tailscale.enable = true;
+
 }
